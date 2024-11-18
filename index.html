@@ -24,8 +24,8 @@
                 <img src="images/ABC President 2016.svg" alt="" width="100px" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,7 +52,7 @@
                         background-color: #D4AF37;
                         color: #000000;
                     }
-    
+
                     .btn-login:hover {
                         background-color: #FFF282;
                         color: #000000;
@@ -350,7 +350,7 @@
                         <form>
                             <div class="mb-3">
                                 <textarea class="form-control" id="message" rows="4"
-                                          placeholder="Your message..."></textarea>
+                                    placeholder="Your message..."></textarea>
                             </div>
                             <div class=" d-flex">
                                 <h5 class="rate">Rate Us: </h5>
@@ -372,7 +372,9 @@
             <div class="border-bottom border-light"></div>
             <div class="row mt-4">
                 <div class="col-md-6">
-                    <p class="text-center text-md-start">© <%= java.util.Calendar.getInstance().get(java.util.Calendar.YEAR)%> ABC Cinema. All Rights Reserved.</p>
+                    <p class="text-center text-md-start">© <%=
+                            java.util.Calendar.getInstance().get(java.util.Calendar.YEAR)%> ABC Cinema. All Rights
+                            Reserved.</p>
                 </div>
                 <div class="col-md-6">
                     <ul class="list-unstyled list-inline social text-center text-md-end">
